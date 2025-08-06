@@ -1,4 +1,4 @@
-# PropVivo Sales Dashboard & Case Study
+# ** PropVivo Sales Dashboard & Case Study **
 
 This repository contains my submission for the **PropVivo Power BI Assessment**, covering:
 - A fully interactive **Sales Performance Dashboard** (Part 1)
@@ -6,7 +6,7 @@ This repository contains my submission for the **PropVivo Power BI Assessment**,
 
 ---
 
-## Problem Statement
+## Problem Statement:
 
 PropVivo, a rapidly growing retail company, wants to improve its business decision-making and operational visibility. You are tasked with:
 
@@ -18,18 +18,18 @@ PropVivo, a rapidly growing retail company, wants to improve its business decisi
 
 ## Part 1: Sales Performance Dashboard
 
-### Objectives
+### Objectives:
 - Monitor revenue, orders, and customer trends
 - Identify top-performing products and regions
 - Enable slicing by Region, Product, Month, and Category
 
-### Key KPIs
+### Key KPIs:
 - Total Revenue
 - Total Orders
 - Average Order Value (AOV)
 - Total Customers
 
-### Visuals
+### Visuals:
 - KPI Cards (4 cards at top)
 - Line Chart: Monthly Revenue Trend
 - Bar Chart: Top 10 Products by Revenue
@@ -37,17 +37,17 @@ PropVivo, a rapidly growing retail company, wants to improve its business decisi
 - Matrix: Region × Category with Conditional Formatting
 - Slicers: Region, Product Name, MonthYear, Category
 
-### Time Intelligence
+### Time Intelligence:
 DAX
 * MonthYear = FORMAT(Sales[Date], "MMM-YYYY")
 
-### DAX Measures Used
+### DAX Measures Used:
 * Total Revenue = SUM(Sales[UnitPrice] * Sales[Quantity])
 * Total Orders = DISTINCTCOUNT(Sales[TransactionID])
 * Average Order Value = [Total Revenue] / [Total Orders]
 * Total Customers = DISTINCTCOUNT(Sales[CustomerID])
 
-### Page Layout
+### Page Layout:
 * Page 1: Sales Overview
 - 4 KPI Cards
 - Monthly Revenue Line Chart
@@ -58,7 +58,7 @@ DAX
 - Matrix (Region × Category)
 - 4 Slicers grouped with heading
 
-### Folder / File Structure
+### Folder / File Structure:
 ```
 PropVIVO-PowerBi-assessment/
 ├── Power Bi Project 1.docx
@@ -82,13 +82,12 @@ PropVIVO-PowerBi-assessment/
 ```
 
 
-
 ## Part 2: Case Study – Urban Threads Expansion
 ----
-### Objective
+### Objective:
 - Design a scalable Power BI strategy for a new business unit (Urban Threads) entering Tier 2 & Tier 3 cities.
 
-### Summary of Case Study Answers
+### Summary of Case Study Answers:
 * Suggested KPIs:
 - Sales Growth %, Customer Retention Rate, Regional Revenue
 
@@ -104,13 +103,13 @@ PropVIVO-PowerBi-assessment/
 * Insights:
 - Underperforming regions, high shipping costs, low coupon usage
 
-### Screenshots
+### Screenshots:
 
 - (Inside the screenshots of dashboards folder)
 - Dashboard Page 1 (Sales Overview)
 - Dashboard Page 2 (Product & Region Insights)
 
-### DAX code view
+### DAX code view:
 - Data Model (3-table star schema)
 - Business Insights Highlighted
 - Revenue concentrated in a few cities
