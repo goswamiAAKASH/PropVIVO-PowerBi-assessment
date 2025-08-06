@@ -59,7 +59,6 @@ DAX
 - 4 Slicers grouped with heading
 
 ### Folder / File Structure
-<br>
 PropVIVO-PowerBi-assessment/
 ├── Power Bi Project 1.docx
 ├── README.md
@@ -72,13 +71,13 @@ PropVIVO-PowerBi-assessment/
 │   ├── UrbanThreads_CaseStudy.docx
 │   ├── UrbanThreads_CaseStudy_ANS.pdf
 ├── cleaning_dataset_using_PY/
-│   ├── PowerBI_Cleaned_Dataset.xlsx
 │   ├── clean_the_dataset.ipynb
-├── screenshots of dashboards/
-│   ├── Product & Regional Insights.png
-│   ├── overview.png
+│   ├── PowerBI_Cleaned_Dataset.xlsx
 ├── uncleaned dataset/
 │   ├── PowerBI_Uncleaned_Dataset-Project1.xlsx
+├── screenshots of dashboards/
+│   ├── overview.png
+│   ├── Product & Regional Insights.png
 
 <br>
 
