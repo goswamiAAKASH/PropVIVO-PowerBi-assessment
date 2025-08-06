@@ -59,6 +59,8 @@ DAX
 - 4 Slicers grouped with heading
 
 ### Folder / File Structure
+<br>
+```
 PropVIVO-PowerBi-assessment/
 ├── Power Bi Project 1.docx
 ├── README.md
@@ -78,7 +80,7 @@ PropVIVO-PowerBi-assessment/
 ├── screenshots of dashboards/
 │   ├── overview.png
 │   ├── Product & Regional Insights.png
-
+```
 <br>
 
 
