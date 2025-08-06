@@ -62,8 +62,8 @@ DAX
 
 
 
-### Part 2: Case Study – Urban Threads Expansion
-
+## Part 2: Case Study – Urban Threads Expansion
+----
 ### Objective
 - Design a scalable Power BI strategy for a new business unit (Urban Threads) entering Tier 2 & Tier 3 cities.
 
@@ -85,9 +85,9 @@ DAX
 
 ### Screenshots
 
-(Inside the screenshots of dashboards folder)
-Dashboard Page 1 (Sales Overview)
-Dashboard Page 2 (Product & Region Insights)
+- (Inside the screenshots of dashboards folder)
+- Dashboard Page 1 (Sales Overview)
+- Dashboard Page 2 (Product & Region Insights)
 
 ### DAX code view
 - Data Model (3-table star schema)
@@ -105,4 +105,4 @@ Dashboard Page 2 (Product & Region Insights)
 
 ### Author
 ~ Akash Goswami
-B.Tech CSE | Data Analyst | Power BI Developer
+- B.Tech CSE | Data Analyst | Power BI Developer
